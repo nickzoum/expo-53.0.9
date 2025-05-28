@@ -10,11 +10,13 @@
     "windows": "npx @react-native-community/cli run-windows"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
     "expo": "~53.0.9",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
     "react-dom": "^19.0.0",
     "react-native": "^0.78.2",
+    "react-native-web": "^0.20.0",
     "react-native-windows": "^0.78.5"
   },
   "devDependencies": {
