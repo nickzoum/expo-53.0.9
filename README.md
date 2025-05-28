@@ -1,20 +1,18 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# List of commands for creating the boilerplate expo structure
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+```bash
+npx create-expo-app --template expo-template-blank-typescript
+npm i --save react-native@0.78.2
+npm install --save react-native-windows
+npx react-native init-windows
+npm install --save react-dom@19.0.0
+npm i --save-dev @react-native/metro-config
+npm i --save-dev @expo/metro-runtime@~5.0.4
+npm i --save react-native-web@^0.20.0 --force
+```
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Command for testing on windows
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+```bash
+npx @react-native-community/cli run-windows
+```
